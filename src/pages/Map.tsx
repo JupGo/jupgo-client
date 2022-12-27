@@ -1,7 +1,9 @@
 import React from 'react';
 
+import { KakaoMap } from '../components/map';
+
 const Map = () => {
-  return <div>지도화면이다</div>;
+  return <KakaoMap />;
 };
 
 export default Map;
